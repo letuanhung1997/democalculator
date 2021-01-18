@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="layout_constraintWidth_default">percent</item>
+        <item name="layout_constraintWidth_percent">0.25</item>
+        <item name="layout_constraintDimensionRatio">4:3</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+    <style name="viewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">right</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+</resources>
